@@ -1,0 +1,20 @@
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+int main()
+{
+
+	cout << "Enter Mass" <<endl;
+	cin >> Mass;
+	cout << "Enter Volume" <<endl;
+	cin >> Volume;
+	cout << "Enter Density" <<endl;
+	cin >> Density;
+	cout << "Density * 1/4 * mass / volume" << Density * 1/4 * mass / volume <<endl;
+
+	_getch();
+	return 0;
+  
+}
